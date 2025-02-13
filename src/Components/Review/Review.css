@@ -1,0 +1,38 @@
+
+.riview .head h1 {
+
+    @apply mt-[50px] md:text-[36px] text-[#002D69] font-Lato
+
+    font-black text-[30px]   mb-[52px] text-center md:text-left
+}
+
+
+
+
+.RIVIEWS{
+
+    @apply flex lg:justify-between justify-center items-center gap-[20px] flex-wrap
+}
+
+
+.S_riview{
+
+    @apply md:w-[392px] border-[1px] border-[#DADADA] pt-[20px] 
+
+    px-[15px] pb-[16px] w-full
+}
+
+.S_riview img{
+
+    @apply w-[28px] mb-[23px]
+}
+
+.S_riview p{
+
+    @apply text-[18px] text-[#343434] font-OpenSans text-center mb-[31px]
+}
+
+.S_riview h3{
+
+    @apply text-[18px] text-[#000] font-OpenSans text-center
+}

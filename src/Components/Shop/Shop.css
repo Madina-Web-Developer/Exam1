@@ -1,0 +1,20 @@
+
+
+.images_all{
+
+    @apply flex gap-[34px] md:justify-between justify-center items-center flex-wrap
+}
+
+.head_s h1{
+
+    @apply mt-[51px] mb-[50px] ml-[55px] md:ml-0  text-[20px] md:text-[36px] w-full text-[#002D69] font-Lato font-black
+}
+
+.image h2{
+
+    @apply text-center text-[#002D69] font-Lato mt-[17px]
+
+    text-[16px] font-medium
+
+    
+}

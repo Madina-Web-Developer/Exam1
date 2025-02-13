@@ -1,0 +1,54 @@
+.main_footer{
+    @apply bg-[#b8e0ef] xl:pt-[59px] xl:pb-[41px] lg:pt-[30px] md:pt-[20px] pt-[20px] md:mt-[111px] 
+  }
+  .main_footer_box{
+    @apply flex justify-center items-center
+  }
+  .Footer_one{
+    @apply lg:w-[943px] lg:h-[400px] bg-[#fff] overflow-hidden
+    flex items-center lg:gap-[70px] md:gap-[10px] 
+    sm:flex-row flex-col
+   }
+
+  .footer_text{
+    @apply flex flex-col items-center 
+   }
+  .Footer_one .footer_text h1{
+    @apply sm:text-[35px] text-[#002D69] font-bold font-Lato
+    text-[20px] sm:mt-[0px] mt-[10px]
+  }
+  .Footer_one .footer_text p{
+    @apply md:text-[16px] text-[#343434] font-normal font-OpenSans sm:w-[352px] text-center mt-[8px] sm:text-[14px] w-[200px] text-[14px]
+    
+  }
+  .Footer_one .footer_text button{
+    @apply py-[12px] px-[17px] text-[#fff] bg-[#002D69] rounded-[5px] sm:mt-[35px] font-bold font-Lato text-[10px] md:text-[16px] mt-[10px] sm:mb-0 mb-[10px]
+  }
+ 
+  .footer_nav{
+    @apply flex sm:gap-[123px] mt-[56px] gap-[23px]
+  }
+  .singlefooter{
+    @apply flex flex-col
+  }
+  .footer_nav .singlefooter h2{
+    @apply font-Lato font-bold text-[21px] text-[#343434] 
+  }
+  .F_hum{
+    @apply mt-[24px]
+  } 
+  .footer_nav .singlefooter .F_hum p{
+    @apply font-Lato font-bold text-[#53585F] text-[16px] mt-[10px]
+  }
+  .footer_last_text{
+    @apply flex justify-between items-center py-[35px]
+  } 
+  .footer_last_text p{
+    @apply font-bold font-Lato text-[16px] text-[#53585F] 
+  }
+  .Footer_icon{
+    @apply flex gap-[10px]
+  }
+  .Footer_icon button{
+    @apply py-[6px] px-[6px] rounded-full bg-[#000] text-[#fff]
+  }

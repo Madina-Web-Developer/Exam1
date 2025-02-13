@@ -1,0 +1,36 @@
+
+.nav{
+    @apply flex justify-between py-[23px] items-center
+}
+
+.nav .logo img{
+
+    @apply 
+
+    w-[]
+    sm:w-[]
+
+    md:w-[300px]
+}
+
+.list ul{
+
+    @apply flex font-bold font-Lato text-[#343434]
+
+    sm:gap-[]
+  
+    md:gap-[63px] lg:text-[16px]
+}
+
+.list ul li a{
+
+    @apply hover:text-blue-900 transition-all duration-[1.1]
+
+    
+}
+
+
+.nav_icon{
+
+    @apply ml-[43px] text-[30px] text-[#002D69]
+}
